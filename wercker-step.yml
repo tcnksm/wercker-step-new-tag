@@ -1,0 +1,16 @@
+name: new-tag-test
+version: 0.1.0
+description: Wercker step to check a provided version is latest or not
+kyewords:
+  - github
+  - release
+properties:
+    owner:
+      type: string
+      required: true
+    repo:
+      type: string
+      required: true
+    tag:
+      type: string
+      required: true
