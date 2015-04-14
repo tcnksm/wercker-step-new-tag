@@ -1,6 +1,8 @@
 Wercker step new-tag [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/tcnksm/wercker-step-new-tag/blob/master/LICENCE)
 ====
 
+[![wercker status](https://app.wercker.com/status/8ec8c2add29b06a111fa1501f1e7523d/m "wercker status")](https://app.wercker.com/project/bykey/8ec8c2add29b06a111fa1501f1e7523d)
+
 This is [wercker](http://wercker.com/) deploy step to check a provided tag is new (not exist on GitHub but grater than others). This step is used to stop deploy step when tag is not new. You can deploy only when tag new one.
 
 ## Usage
